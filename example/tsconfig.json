@@ -1,0 +1,10 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "magic-button": ["../src/index"],
+      "magic-button/*": ["../src/*"]
+    }
+  }
+}

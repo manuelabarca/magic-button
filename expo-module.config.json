@@ -1,0 +1,9 @@
+{
+  "platforms": ["ios", "android", "web"],
+  "ios": {
+    "modules": ["MagicButtonModule"]
+  },
+  "android": {
+    "modules": ["expo.modules.magicbutton.MagicButtonModule"]
+  }
+}
